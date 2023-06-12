@@ -1,2 +1,3 @@
 #!/bin/bash
+alpha /etc/ssh/sshd_config
 
