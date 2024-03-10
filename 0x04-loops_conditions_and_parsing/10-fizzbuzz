@@ -16,7 +16,7 @@ do
 	then
 		echo "Buzz"
 	else
-		echo $myvar
+		echo "$myvar"
 	fi
-	myvar=$(( myvar +1 ))
+	(( myvar++ ))
 done
