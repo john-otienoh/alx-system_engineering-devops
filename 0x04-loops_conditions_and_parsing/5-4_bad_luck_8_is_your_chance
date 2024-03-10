@@ -13,5 +13,5 @@ do
 	else
 		echo "Best School"
 	fi
-       	myvar=$(( $myvar +1 ))
+       	myvar=$(( myvar +1 ))
 done

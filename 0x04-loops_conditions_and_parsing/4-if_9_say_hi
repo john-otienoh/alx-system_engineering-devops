@@ -9,5 +9,5 @@ do
 	then
 		echo "Hi"
 	fi
-       	myvar=$(( $myvar +1 ))
+       	myvar=$(( myvar +1 ))
 done

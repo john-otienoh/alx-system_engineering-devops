@@ -4,5 +4,5 @@ myvar=10
 until [ $myvar -lt 1 ]
 do
 	echo "Best School"
-	myvar=$(( $myvar -1 ))
+	myvar=$(( myvar -1 ))
 done

@@ -9,5 +9,5 @@ do
 		9) echo "bad luck from Japan" ;;
 		17) echo "bad luck from Italy" ;;
 	esac
-	myvar=$(( $myvar +1 ))
+	myvar=$(( myvar +1 ))
 done

@@ -3,8 +3,8 @@
 myvar=1
 while [ $myvar -le 100 ]
 do
-	three=$(( $myvar % 3 ))
-	five=$(( $myvar % 5 ))
+	three=$(( myvar % 3 ))
+	five=$(( myvar % 5 ))
 
 	if [ $three -eq 0 ] && [ $five -eq 0 ]
 	then
@@ -18,5 +18,5 @@ do
 	else
 		echo $myvar
 	fi
-	myvar=$(( $myvar +1 ))
+	myvar=$(( myvar +1 ))
 done
