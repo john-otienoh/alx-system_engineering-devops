@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# This script is displaying "FizzBuzz" when the number is a multiple of 3 and 5, "Buzz" when the number is a multiple of 3 or "Fizz" when the number is a multiple of 5.
+myvar=1
+while [ $myvar -le 100 ]
+do
+	three=$(( $myvar % 3 ))
+	five=$(( $myvar % 5 ))
+
+	if [ $three -eq 0 ] && [ $five -eq 0 ]
+	then
+		echo "FizzBuzz"
+	elif [ $three -eq 0 ]
+	then
+		echo "Fizz"
+	elif [ $five -eq 0 ]
+	then
+		echo "Buzz"
+	else
+		echo $myvar
+	fi
+	myvar=$(( $myvar +1 ))
+done
