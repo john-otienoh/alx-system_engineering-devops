@@ -1,3 +1,4 @@
 #!/usr/bin/env bashf
-# Fixing apache2  server
-sudo service apache2 start
+# Fixing apache2  server 
+echo "ServerName localhost" >> /etc/apache2.conf
+service apache2 start
