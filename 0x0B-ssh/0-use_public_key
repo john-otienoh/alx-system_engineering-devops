@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-
-# Copy public key to remote server using ssh-copy-id
-ssh-copy-id -i ~/.ssh/school.pub ubuntu@174.129.184.146
